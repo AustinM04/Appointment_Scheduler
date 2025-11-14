@@ -24,7 +24,7 @@ namespace Appointment_Scheduler.Models
 			/// <summary>
 			/// Time of the appointment
 			/// </summary>
-			public DateTime AppointmentTime { get; set; }
+			public string AppointmentTime { get; set; }
 
 			/// <summary>
 			/// Boolean indicating if the appointment is for a new patient

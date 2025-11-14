@@ -24,7 +24,7 @@ namespace Appointment_Scheduler.Models
 			/// <summary>
 			/// Array of preferred days for the appointment.
 			/// </summary>
-			public DateTime[] PreferredDays { get; set; }
+			public string[] PreferredDays { get; set; }
 			
 			/// <summary>
 			/// Array of preferred doc ids for the appointment.
