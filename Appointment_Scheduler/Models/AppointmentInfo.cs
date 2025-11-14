@@ -9,17 +9,17 @@ namespace Appointment_Scheduler.Models
 		/// <summary>
 		/// DTO for the appointment information.
 		/// </summary>
-		public class AppointmentInfo
+		public record class AppointmentInfo
 		{
 			/// <summary>
 			/// Id of the doctor
 			/// </summary>
-			private int DoctorId { get; set; }
+			public int DoctorId { get; set; }
 
 			/// <summary>
 			/// Id of the person who is booking the appointment
 			/// </summary>
-			private int PersonId { get; set; }
+			public int PersonId { get; set; }
 
 			/// <summary>
 			/// Time of the appointment

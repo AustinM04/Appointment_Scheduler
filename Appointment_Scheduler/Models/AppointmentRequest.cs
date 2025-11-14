@@ -9,7 +9,7 @@ namespace Appointment_Scheduler.Models
 		/// <summary>
 		/// DTO for the appointment request.
 		/// </summary>
-		public class AppointmentRequest
+		public record class AppointmentRequest
 		{
 			/// <summary>
 			/// Id of the appointment request.
